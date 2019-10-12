@@ -16,7 +16,25 @@ body {
 }
 
 .logo img {
+  width: 400px;
   border-radius: 0px;
+  margin: 5px 0 0 0;
+}
+
+.logo-profile {
+  text-align: start;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(46, 83, 46),
+    rgb(115, 117, 115)
+  );
+}
+
+.logo-profile img {
+  width: 250px;
+  border-radius: 0px;
+  margin: 5px 0 0 20px;
 }
 
 .container-profile {
@@ -26,6 +44,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 20px 0 0 0;
 }
 
 .photo-member img {
