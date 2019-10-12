@@ -103,7 +103,7 @@ img {
   text-align: center;
 }
 
-.member-master p {
+#role {
   font-size: 20px;
   margin-left: 15px;
   border-radius: 15px;
@@ -124,7 +124,7 @@ img {
 
 .advisor {
   width: 210px;
-  margin-left: 20px;
+  text-align: center;
 }
 
 .line {
